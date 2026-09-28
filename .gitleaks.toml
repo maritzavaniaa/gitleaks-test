@@ -1,0 +1,10 @@
+title = "Aturan tambahan"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "indonesian-nik"
+description = "Kemungkinan NIK Indonesia (16 digit)"
+regex = '''\b\d{16}\b'''
+keywords = ["nik"]
